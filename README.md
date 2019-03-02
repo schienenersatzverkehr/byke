@@ -1,2 +1,2 @@
 # byke
-Toolbox for processing sensor data recorded on a bicycle with smartphones.
+Toolbox for processing smartphone accelerometer data recorded on a bike
