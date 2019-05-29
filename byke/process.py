@@ -10,11 +10,9 @@ HAPPY BIKE INDEX PROCESSOR
 parameters:
     + cutoff frequency (in Hz)
     + window size (in seconds)
-    + threshold  (in g)
-    + 
+    + threshold  (in g) 
     
 """
-
 
 import os
 import sys
@@ -35,9 +33,7 @@ if len(sys.argv) != 3:
     print "wrong amount of arguments"
     print len(sys.argv)
     sys.exit(1)
-
-## highpass & RMN & Export different df
-
+    
 ### global constants
 
 gI = ('gFx','gFy','gFz')
@@ -50,26 +46,7 @@ t = 1.5
 cutoff = 1.
 order = 6
 
-
-#import Tkinter
-#import tkFileDialog
-#
-#Tkinter.Tk().withdraw() # Close the root window
-#filename = tkFileDialog.askopenfilename()
-#
-
-#export_path = root + '/data/processed/citytracks/'
-#
-#def file_save():
-#    f = tkFileDialog.asksaveasfile(mode='w', defaultextension=".txt")
-#    if f is None: # asksaveasfile return `None` if dialog closed with "cancel".
-#        return
-#    text2save = str(text.get(1.0, END)) # starts from `1.0`, not `0.0`
-#    f.write(text2save)
-#    f.close()
-#    
-#filename = root + '/data/raw/citytracks/citytrack4.csv'
-
+##
 root = os.getcwd()
 
 title = sys.argv[2]
