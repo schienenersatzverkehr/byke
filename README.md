@@ -13,3 +13,15 @@ What we're left with after processing is the "Happy-Bike-Index" (HBI) exported a
 - t: thresholding value (best 1.5 times g-force) 
 
 Due to hardware caused GPS errors of the tracking device, the datasets of tracks 1-6 have flawed Features. These issues (if not to grave) can to be manipulated in a GIS. Track 7 and 8 show promising results. 
+
+## What the processor does
+
+![alt text](https://github.com/schienenersatzverkehr/byke/blob/master/HBI2.pdf) 
+The data is processed in the following steps: 
+1. Input is generated with Physics tool box with an unknown sample distance of T
+2. The input is assumed as a Time discrete signal 
+3. A dynamic threshold is applied with timeframe size (s) and threshold (z_t)
+4. Highpass Butterworth filter with cutofffrequency (omega) generates a highpassed signal
+5. The floating root mean square with timeframe size (s) caculates average over time 
+6. To get a spatial represantiation, another average is calculated but only over a unique Geotag
+7. To get an Index, the averages are normalized between 0 and 1
