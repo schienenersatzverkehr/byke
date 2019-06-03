@@ -16,7 +16,7 @@ Due to hardware caused GPS errors of the tracking device, the datasets of tracks
 
 ## What the processor does
 
-![alt text](https://github.com/schienenersatzverkehr/byke/blob/master/HBI2.pdf) 
+![alt text](https://github.com/schienenersatzverkehr/byke/blob/master/HBI2.png) 
 The data is processed in the following steps: 
 1. Input is generated with Physics tool box with an unknown sample distance of T
 2. The input is assumed as a Time discrete signal 
