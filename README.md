@@ -24,4 +24,4 @@ The data is processed in the following steps:
 4. Highpass Butterworth filter with cutofffrequency (omega) generates a highpassed signal
 5. The floating root mean square with timeframe size (s) caculates average over time 
 6. To get a spatial represantiation, another average is calculated but only over a unique Geotag
-7. To get an Index, the averages are normalized between 0 and 1
+7. To get an Index, the averages are normalized between 0 (good) and 1 (bad)
