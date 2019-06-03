@@ -13,6 +13,3 @@ What we're left with after processing is the "Happy-Bike-Index" (HBI) exported a
 - t: thresholding value (best 1.5 times g-force) 
 
 Due to hardware caused GPS errors of the tracking device, the datasets of tracks 1-6 have flawed Features. These issues (if not to grave) can to be manipulated in a GIS. Track 7 and 8 show promising results. 
-
-Prospects:
-- own data recording device
