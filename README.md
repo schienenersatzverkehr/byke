@@ -25,3 +25,4 @@ The data is processed in the following steps:
 5. The floating root mean square with timeframe size (s) caculates average over time 
 6. To get a spatial represantiation, another average is calculated but only over a unique Geotag
 7. To get an Index, the averages are normalized between 0 (good) and 1 (bad)
+8. The index is finally exported as a geojson polyline feature
