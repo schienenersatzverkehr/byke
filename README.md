@@ -26,3 +26,5 @@ The data is processed in the following steps:
 6. To get a spatial represantiation, another average is calculated but only over a unique Geotag
 7. To get an Index, the averages are normalized between 0 (good) and 1 (bad)
 8. The index is finally exported as a geojson polyline feature
+
+![Mapped Sample Results in a GIS](https://github.com/schienenersatzverkehr/byke/blob/master/sample.jgeg) 
