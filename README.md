@@ -27,4 +27,4 @@ The data is processed in the following steps:
 7. To get an Index, the averages are normalized between 0 (good) and 1 (bad)
 8. The index is finally exported as a geojson polyline feature
 
-![alt text](https://github.com/schienenersatzverkehr/byke/blob/master/sample.jgeg"Mapped Sample Results in a GIS") 
+![alt text](https://github.com/schienenersatzverkehr/byke/blob/master/sample.jpeg"Mapped Sample Results in a GIS") 
